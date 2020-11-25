@@ -44,8 +44,7 @@ def delete_item(name):
     else:
         raise mvc_exc.ItemNotStored('Can\'t delete "{}" because it\'s not stored'.format(name))
 
-
-# test them
+    # test them
 def main():
     my_items = [
             {'name': 'tlacitko', 'priority': 3, 'owner': 'none', 'author': 'Michal', 'description': 'blech', 'state': 'open', 'result': 'result'},
